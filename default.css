@@ -1,0 +1,137 @@
+/* CSS Document */
+
+.spcomments-form-block {
+	
+	display:none;
+	background-color:#cdcdcd;
+	text-align:center;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	padding: 2%;
+	margin-top: 5px;
+	
+	}
+
+.spcomment-main {
+	
+	display:inline;
+	width:auto;
+	
+	}
+
+.spcomments-form-block fieldset {
+	
+	
+	
+	}
+
+.spcomments-form-block textarea {
+	width: 60%;
+	background-color: #fff;
+	border: 1px solid #000;
+	}
+
+.spcomments-columns {
+	
+	display:block;
+	float:left;
+	margin-right:1%;
+	width:32%;
+	
+	}
+
+div.spcomments-columns label {
+	
+	color:#004057 !important;
+	cursor:pointer;
+	
+	}
+
+.spcomments-column-arg {
+
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:8pt;	
+	list-style:none;
+	
+	}
+
+.spcomments-column-arg li {
+	
+	padding: 2% 0;
+	clear:both;
+	
+	}
+
+.spcomments-column-arg .commentmetadata {
+	display:none;
+	}
+
+.spcomments-column-arg cite.fn {
+
+	font-style:normal;
+	font-weight:bold;
+	color:#000;
+	
+	}
+	
+.spcomments-button,
+.spcomments-form-block input[type=submit] {
+	
+	display:inline-block;
+	margin:auto;
+	padding: 10px 20px;
+	background-color:#004057;
+	color:#fff;
+	border-radius:5px;
+	
+	}
+
+.spcomments-form-block input[type=submit] {
+	
+	width:50% !important;
+	
+	}
+
+.spcomments-column-arg .comment-author .avatar {
+	
+		height: 32px;
+		margin-right: 1em;
+		top: 0px;
+		width: 32px;
+	
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 9999; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 0%;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.spcomment-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+	margin-right:1%;
+}
+
+.spcomment-close:hover,
+.spcomment-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
